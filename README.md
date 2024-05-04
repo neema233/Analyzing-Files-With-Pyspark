@@ -50,5 +50,4 @@ The count function is used to aggregate the number of movies for each genre, cre
 The DataFrame is grouped by "original_language".
 The max function is used to find the movie with the highest "popularity" within each language group.
 The first function is used to retrieve the title of the most popular film (handling cases where a language might have no movies).
-The resulting DataFrame named "popular_films_df" is written to a local CSV file "popular_film_per_lan.csv".
 
